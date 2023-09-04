@@ -9,9 +9,6 @@ li{
     display:inline-block;
     vertical-align: top; 
 }
-.parentContainer {
-  display: flex;
-  background-color: aquamarine;
-  padding: 15px;
-}
-
+.flex-container {
+    display: flex;
+  }

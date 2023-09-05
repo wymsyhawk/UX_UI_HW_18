@@ -1,0 +1,45 @@
+.navigation{
+    color:purple;
+}
+.inline-block{
+    display:inline-block;
+    vertical-align: top;
+}
+li{
+    display:inline-block;
+    vertical-align: top; 
+}
+.flexContainer {
+    display: flex;
+    /*outline: 1px solid red;*/
+  }
+  .flexChild {
+    outline: 1px solid blue;
+  }
+  p {
+    color: red;
+  }
+
+  /* this is how you comment something out */
+  
+  body {
+    background-color: lightblue;
+  }
+  
+  @media screen and (min-width: 200px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  
+  @media screen and (min-width: 400px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    body {
+      background-color: lavender;
+    }
+  }
